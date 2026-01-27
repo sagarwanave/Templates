@@ -1,0 +1,16 @@
+{
+  "providerId": "juvlon",
+  "serviceId": "dkim",
+  "providerName": "Juvlon Email",
+  "serviceName": "DKIM Authentication", 
+  "logo": "https://img.imgnch2.com/ml/102803/20260127/1/juvlonlogo_250px_100px.png",
+  "syncPubKeyDomain": "juvlonns.com",
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "juv2048._domainkey.[domain]",
+      "data": "juv2048._domainkey.juvlonns.com",
+      "proxy": false
+    }
+  ]
+}
