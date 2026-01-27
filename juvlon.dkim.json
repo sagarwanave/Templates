@@ -1,6 +1,6 @@
 {
     "providerId": "juvlon",
-    "providerName": "Juvlon Email", 
+    "providerName": "Juvlon Email",
     "serviceId": "dkim",
     "serviceName": "DKIM Authentication",
     "version": 1,
