@@ -1,16 +1,18 @@
 {
-  "version": "1.0",
-  "providerId": "juvlon",
-  "serviceId": "dkim", 
-  "providerName": "Juvlon Email",
-  "serviceName": "DKIM Authentication",
-  "syncPubKeyDomain": "juvlonns.com",
-  "records": [
-    {
-      "type": "CNAME",
-      "host": "juv2048._domainkey.[domain]",
-      "pointsTo": "juv2048._domainkey.juvlonns.com",
-      "proxy": false
-    }
-  ]
+    "providerId": "juvlon",
+    "providerName": "Juvlon Email", 
+    "serviceId": "dkim",
+    "serviceName": "DKIM Authentication",
+    "version": 1,
+    "logoUrl": "https://img.imgnch2.com/ml/102803/20260127/1/juvlonlogo_250px_100px.png",
+    "description": "DKIM CNAME record for Juvlon email authentication",
+    "syncPubKeyDomain": "juvlonns.com",
+    "records": [
+        {
+            "type": "CNAME",
+            "host": "juv2048._domainkey.[domain]",
+            "pointsTo": "juv2048._domainkey.juvlonns.com",
+            "ttl": 600
+        }
+    ]
 }
