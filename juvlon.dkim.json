@@ -10,7 +10,7 @@
     "records": [
         {
             "type": "CNAME",
-            "host": "juv2048._domainkey.[domain]",
+            "host": "juv2048._domainkey.%domain%",
             "pointsTo": "juv2048._domainkey.juvlon.in",
             "ttl": 600
         }
