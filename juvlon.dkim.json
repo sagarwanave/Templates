@@ -3,14 +3,15 @@
     "providerName": "Juvlon Email",
     "serviceId": "dkim",
     "serviceName": "DKIM Authentication",
-    "version": 1,
+    "version": 2,
     "logoUrl": "https://img.imgnch2.com/ml/102803/20260127/1/juvlonlogo_250px_100px.png",
     "description": "DKIM CNAME record for Juvlon email authentication",
+    "syncPubKeyDomain": "juvlon.in",
     "records": [
         {
             "type": "CNAME",
             "host": "juv2048._domainkey.[domain]",
-            "pointsTo": "juv2048._domainkey.juvlonns.com",
+            "pointsTo": "juv2048._domainkey.juvlon.in",
             "ttl": 600
         }
     ]
